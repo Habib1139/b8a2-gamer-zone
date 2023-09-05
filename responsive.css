@@ -1,0 +1,33 @@
+
+
+ /* Small devices Mobile view */
+@media (max-width: 576px) { 
+    .navbar{
+        flex-direction: column;
+      
+    }
+    .logo{
+        padding-left: 50px;
+    }
+    
+    .nav-iteams{
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+ }
+
+/* Medium devices tablets View */
+@media (max-width: 768px) { 
+    .navbar{
+        flex-direction: column;
+        padding: 20px 150px 20px 0;
+    }
+    .nav-iteams{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+ }
+
+ /* Large devices desktops view */
+@media (max-width: 992px) {  }
