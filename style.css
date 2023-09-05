@@ -56,6 +56,7 @@
     transition: .5s;
     cursor: pointer;
     font-size: 18px;
+   
 }
 .btn-contact:hover{
     border: 1px solid #FF42A5;
@@ -108,7 +109,7 @@
     border-radius: 48px;
     background-color:#F948B2 ;
     border: none;
-    margin-top: 10px;
+    margin: 30px 0;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -130,4 +131,30 @@
 .hero-img img{
     width: 450px;
     height: 450px;
+}
+
+/* gamer section  */
+.gamer{
+    width: 100%;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6d2e7;
+}
+.gamer-img img{
+    width: 450px;
+    height: 350px;
+    margin-right: 50px;
+}
+.gamer-text{
+    text-align: right;
+}
+.gamer-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     margin-bottom: 30px;
 }

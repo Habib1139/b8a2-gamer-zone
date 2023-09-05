@@ -29,6 +29,12 @@
     margin-top: 200px;
    
    }
+   /* gamer section */
+   .gamer{
+    flex-direction: column;
+    padding: 50px 20px;
+    margin-top: 50px;
+   }
  }
 
 /* Medium devices tablets View */
@@ -53,6 +59,16 @@
     margin-top: 200px;
    
    }
+   /* gamer section */
+   /* gamer section */
+   .gamer{
+        flex-direction: column;
+        padding: 50px 50px;
+        margin-top: 50px;
+   }
+   .gamer-text{
+    margin-top: 50px;
+   }
  }
 
  /* Large devices desktops view */
@@ -65,11 +81,19 @@
     .hero{
         padding: 0 50px 0 50px;
     }
+    /* gamer part */
+    .gamer{
+        margin-top: 50px;
+        padding: 0  70px;
+    }
     
  }
   /* header part */
  @media (max-width: 1200px) {
     .navbar{
+        padding: 0 70px;
+    }/* hero part */
+    .hero{
         padding: 0 70px;
     }
  }
