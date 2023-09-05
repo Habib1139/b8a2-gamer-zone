@@ -196,3 +196,39 @@
     width: 220px;
     height: 200px;
 }
+
+/* instent play part */
+.instant-play{
+    padding: 0 150px; 
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.play-img img{
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.play-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.play-text span{
+    color: #F948B2;
+}
+.play-text{
+    text-align: right;
+}
+.play-img{
+    position: relative;
+}
+.play-img .rat{
+    position: absolute;
+    
+    left: -50px;
+    bottom: -50px;
+}
