@@ -158,3 +158,41 @@
     -webkit-text-fill-color: transparent;
      margin-bottom: 30px;
 }
+/* funny part start */
+.funny-part{
+    padding: 0 150px;
+}
+.funny{
+    text-align: center;
+    margin: 100px 0;
+    
+}
+.funny span{
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+}
+.funny h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.funny p{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.funny-image{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+   
+}
+.image-1 img{
+    width: 220px;
+    height: 200px;
+}
