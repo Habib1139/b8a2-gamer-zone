@@ -189,13 +189,20 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  
+  position: relative;
    
 }
 .image-1 img{
     width: 220px;
     height: 200px;
+   
 }
+.image-1 i{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
 
 /* instent play part */
 .instant-play{
